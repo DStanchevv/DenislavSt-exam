@@ -24,7 +24,6 @@ jobs:
       run: npm run test:unit
     - name: Display softuni username
       run: echo "DenislavSt"
-      jobs:
   
   deploy:
     needs: build-test
